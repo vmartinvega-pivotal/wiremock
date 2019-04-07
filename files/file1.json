@@ -1,0 +1,336 @@
+{
+ "numLinea": "<string>",
+ "subSystem": "<string>",
+ "IMSI": "<string>",
+ "ICCID": "<string>",
+ "cardFeatures": "<string>",
+ "cardPhase": "<string>",
+ "languageId": "<string>",
+ "state": "<string>",
+ "stateDetail": "<string>",
+ "reason": "<string>",
+ "restored": "<boolean>",
+ "accountType": "<string>",
+ "accountCategory": "<string>",
+ "installationDate": "<dateTime>",
+ "activationDate": "<dateTime>",
+ "lastDeactivationDate": "<dateTime>",
+ "deactivationDate": "<dateTime>",
+ "expiryDate": "<dateTime>",
+ "notifyRequested": "<boolean>",
+ "notifyType": "<string>",
+ "typeOfCard": "<string>",
+ "numReloads": "<integer>",
+ "lastReload": "<dateTime>",
+ "numTariffChanges": "<integer>",
+ "lastTariffChange": "<dateTime>",
+ "deleteReason": "<string>",
+ "baseOfferName": "<string>",
+ "notifyDate": "<dateTime>",
+ "services": [
+  {
+   "key": "<string>",
+   "value": "<string>"
+  },
+  {
+   "key": "<string>",
+   "value": "<string>"
+  }
+ ],
+ "group": {
+  "groupID": "<string>",
+  "type": "<string>",
+  "members": [
+   {
+    "id": "<string>",
+    "type": "<string>",
+    "offerId": "<string>",
+    "offerState": "<string>",
+    "CIC": "<string>",
+    "accountCategory": "<string>",
+    "totActMembers": "<integer>",
+    "totPrvMembers": "<integer>"
+   },
+   {
+    "id": "<string>",
+    "type": "<string>",
+    "offerId": "<string>",
+    "offerState": "<string>",
+    "CIC": "<string>",
+    "accountCategory": "<string>",
+    "totActMembers": "<integer>",
+    "totPrvMembers": "<integer>"
+   }
+  ]
+ },
+ "offers": [
+  {
+   "name": "<string>",
+   "prodId": "<string>",
+   "state": "<string>",
+   "notifyRequest": "<string>",
+   "notifyState": "<string>",
+   "notifyType": "<string>",
+   "activationDate": "<dateTime>",
+   "deactivationDate": "<dateTime>",
+   "expiryDate": "<dateTime>",
+   "cycleNumber": "<integer>",
+   "cycleType": "<string>",
+   "startUseDate": "<dateTime>",
+   "endUseDate": "<dateTime>",
+   "nextUseDate": "<dateTime>",
+   "isUpselling": "<boolean>",
+   "upsellingFixed": "<string>",
+   "isSlave": "<boolean>",
+   "masterOffer": "<string>",
+   "payMode": "<string>",
+   "extensionPayMode": "<string>",
+   "offerNextExtensionCost": "<number>",
+   "offerExtensionPeriod": "<string>",
+   "restart": "<integer>",
+   "deactMode": "<integer>",
+   "offerKind": "<string>",
+   "baskets": [
+    {
+     "name": "<string>",
+     "type": "<string>",
+     "unit": "<string>",
+     "rankType": "<string>",
+     "rankPosition": "<number>",
+     "instanceId": "<string>",
+     "endUseDate": "<dateTime>",
+     "maxValue": "<string>",
+     "rollOverThreshold": "<number>",
+     "rollOverMax": "<integer>"
+    },
+    {
+     "name": "<string>",
+     "type": "<string>",
+     "unit": "<string>",
+     "rankType": "<string>",
+     "rankPosition": "<number>",
+     "instanceId": "<string>",
+     "endUseDate": "<dateTime>",
+     "maxValue": "<string>",
+     "rollOverThreshold": "<number>",
+     "rollOverMax": "<integer>"
+    }
+   ],
+   "options": [
+    {
+     "name": "<string>",
+     "createDate": "<dateTime>",
+     "lastChangeDate": "<dateTime>",
+     "numChanges": "<integer>",
+     "filters": [
+      "<string>",
+      "<string>"
+     ]
+    },
+    {
+     "name": "<string>",
+     "createDate": "<dateTime>",
+     "lastChangeDate": "<dateTime>",
+     "numChanges": "<integer>",
+     "filters": [
+      "<string>",
+      "<string>"
+     ]
+    }
+   ],
+   "cumulatedDiscount": "<number>",
+   "limitDiscountDate": "<dateTime>",
+   "discountInfo": "<string>",
+   "extraCostType": "<string>",
+   "extraCostValue": "<number>",
+   "GTF": "<string>",
+   "initiativeCode": "<string>",
+   "discountSteps": [
+    {
+     "stepId": "<string>",
+     "nextRenewals": "<integer>",
+     "costValue": "<number>",
+     "used": "<boolean>"
+    },
+    {
+     "stepId": "<string>",
+     "nextRenewals": "<integer>",
+     "costValue": "<number>",
+     "used": "<boolean>"
+    }
+   ]
+  },
+  {
+   "name": "<string>",
+   "prodId": "<string>",
+   "state": "<string>",
+   "notifyRequest": "<string>",
+   "notifyState": "<string>",
+   "notifyType": "<string>",
+   "activationDate": "<dateTime>",
+   "deactivationDate": "<dateTime>",
+   "expiryDate": "<dateTime>",
+   "cycleNumber": "<integer>",
+   "cycleType": "<string>",
+   "startUseDate": "<dateTime>",
+   "endUseDate": "<dateTime>",
+   "nextUseDate": "<dateTime>",
+   "isUpselling": "<boolean>",
+   "upsellingFixed": "<string>",
+   "isSlave": "<boolean>",
+   "masterOffer": "<string>",
+   "payMode": "<string>",
+   "extensionPayMode": "<string>",
+   "offerNextExtensionCost": "<number>",
+   "offerExtensionPeriod": "<string>",
+   "restart": "<integer>",
+   "deactMode": "<integer>",
+   "offerKind": "<string>",
+   "baskets": [
+    {
+     "name": "<string>",
+     "type": "<string>",
+     "unit": "<string>",
+     "rankType": "<string>",
+     "rankPosition": "<number>",
+     "instanceId": "<string>",
+     "endUseDate": "<dateTime>",
+     "maxValue": "<string>",
+     "rollOverThreshold": "<number>",
+     "rollOverMax": "<integer>"
+    },
+    {
+     "name": "<string>",
+     "type": "<string>",
+     "unit": "<string>",
+     "rankType": "<string>",
+     "rankPosition": "<number>",
+     "instanceId": "<string>",
+     "endUseDate": "<dateTime>",
+     "maxValue": "<string>",
+     "rollOverThreshold": "<number>",
+     "rollOverMax": "<integer>"
+    }
+   ],
+   "options": [
+    {
+     "name": "<string>",
+     "createDate": "<dateTime>",
+     "lastChangeDate": "<dateTime>",
+     "numChanges": "<integer>",
+     "filters": [
+      "<string>",
+      "<string>"
+     ]
+    },
+    {
+     "name": "<string>",
+     "createDate": "<dateTime>",
+     "lastChangeDate": "<dateTime>",
+     "numChanges": "<integer>",
+     "filters": [
+      "<string>",
+      "<string>"
+     ]
+    }
+   ],
+   "cumulatedDiscount": "<number>",
+   "limitDiscountDate": "<dateTime>",
+   "discountInfo": "<string>",
+   "extraCostType": "<string>",
+   "extraCostValue": "<number>",
+   "GTF": "<string>",
+   "initiativeCode": "<string>",
+   "discountSteps": [
+    {
+     "stepId": "<string>",
+     "nextRenewals": "<integer>",
+     "costValue": "<number>",
+     "used": "<boolean>"
+    },
+    {
+     "stepId": "<string>",
+     "nextRenewals": "<integer>",
+     "costValue": "<number>",
+     "used": "<boolean>"
+    }
+   ]
+  }
+ ],
+ "bookings": [
+  {
+   "offerName": "<string>",
+   "expiryDate": "<dateTime>",
+   "operationDate": "<dateTime>",
+   "operationCost": "<number>",
+   "subsystem": "<string>"
+  },
+  {
+   "offerName": "<string>",
+   "expiryDate": "<dateTime>",
+   "operationDate": "<dateTime>",
+   "operationCost": "<number>",
+   "subsystem": "<string>"
+  }
+ ],
+ "recurringTransfer": [
+  {
+   "role": "<string>",
+   "members": [
+    {
+     "donor": "<string>",
+     "receiver": "<string>",
+     "amount": "<number>",
+     "fee": "<number>",
+     "frequency": "<integer>",
+     "nextTransferDate": "<dateTime>",
+     "activationDate": "<dateTime>",
+     "deactivationDate": "<dateTime>"
+    },
+    {
+     "donor": "<string>",
+     "receiver": "<string>",
+     "amount": "<number>",
+     "fee": "<number>",
+     "frequency": "<integer>",
+     "nextTransferDate": "<dateTime>",
+     "activationDate": "<dateTime>",
+     "deactivationDate": "<dateTime>"
+    }
+   ]
+  },
+  {
+   "role": "<string>",
+   "members": [
+    {
+     "donor": "<string>",
+     "receiver": "<string>",
+     "amount": "<number>",
+     "fee": "<number>",
+     "frequency": "<integer>",
+     "nextTransferDate": "<dateTime>",
+     "activationDate": "<dateTime>",
+     "deactivationDate": "<dateTime>"
+    },
+    {
+     "donor": "<string>",
+     "receiver": "<string>",
+     "amount": "<number>",
+     "fee": "<number>",
+     "frequency": "<integer>",
+     "nextTransferDate": "<dateTime>",
+     "activationDate": "<dateTime>",
+     "deactivationDate": "<dateTime>"
+    }
+   ]
+  }
+ ],
+ "pendingSOS": "<string>",
+ "sosAmount": "<number>",
+ "sosFee": "<number>",
+ "sosRecovered": "<number>"
+}
+
+
+
+

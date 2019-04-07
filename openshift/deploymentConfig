@@ -1,0 +1,22 @@
+kind: "DeploymentConfig"
+apiVersion: "v1"
+metadata:
+  name: "wiremock-server"
+spec:
+  template:
+    metadata:
+      labels:
+        name: "wiremock"
+    spec:
+      containers:
+        - name: "wiremock"
+          image: "tiller/wiremock"
+          ports:
+            - containerPort: 8080
+              protocol: "TCP"
+  replicas: 1
+  strategy:
+    type: "Rolling"
+  paused: false
+  revisionHistoryLimit: 2
+  minReadySeconds: 0

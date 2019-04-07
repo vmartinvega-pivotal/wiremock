@@ -1,0 +1,14 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/v1/clienti/consistenzePrepagato/numLinea"
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "file1.json",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+    }
+}
+
